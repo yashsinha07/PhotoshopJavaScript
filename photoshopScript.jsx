@@ -8,9 +8,6 @@ var layer9 = doc.layerSets.getByName('Layer 9');
 var appNameText = layer9.layers[1];
 appNameText.textItem.contents = input.appName;
 
-//Saving the template in JPEG Format
-saveJpeg(input.appName);
-
 //Changing Developer Name in a Text Layer
 var developerNameText = layer9.layers[0];
 developerNameText.textItem.contents = input.developerName;
@@ -24,6 +21,10 @@ storeNameText.textItem.contents = input.storeName;
 var layer4 = doc.layerSets.getByName('Layer 4');
 var ctaText = layer4.layers[0];
 ctaText.textItem.contents = input.ctaText;
+
+
+//Saving the template in JPEG Format
+saveJpeg(input.appName);
 
 //Load JSON
 function loadJSON(relPath){
