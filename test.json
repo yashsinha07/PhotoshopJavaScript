@@ -1,6 +1,7 @@
 {
-    "appName": "PUBG",
-    "developerName": "Tencent Gaming Inc.",
+    "appName": "Aisle",
+    "developerName": "Aisle Network Private Limited",
     "storeName": "Apple Store",
-    "ctaText": "Download Now"    
+    "ctaText": "Download Now",
+    "appIcon": "/Users/yash.sinha/Downloads/100x100bb-2.jpg"    
 }
