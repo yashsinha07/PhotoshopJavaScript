@@ -1,6 +1,6 @@
 #include json2.js
 
-var input = loadJSON('test.json');
+var input = loadJSON('test2.json');
 var doc = app.activeDocument;
 
 //Changing App Name in a Text Layer
