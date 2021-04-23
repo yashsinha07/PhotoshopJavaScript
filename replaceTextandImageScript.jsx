@@ -1,6 +1,6 @@
 #include json2.js
 
-var input = loadJSON('test2.json');
+var input = loadJSON('test.json');
 var doc = app.activeDocument;
 
 //Changing App Name in a Text Layer
@@ -30,7 +30,6 @@ place_image_here(imagePath, doc);
 translate_layer(1804, 2390);
 
 //Saving the template in JPEG Format
-app.activeDocument = doc;
 saveJpeg(input.appName);
 
 
